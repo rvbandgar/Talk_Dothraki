@@ -1,9 +1,17 @@
+:root{
+    --primary-color: #fbbf24;
+    --textarea-color: #a1a1aa;
+    --border-color:rgb(97, 28, 28); ;
+
+
+}
+
 h1{
     
     margin: 0px;
     padding: 1rem;
     display: block;
-    background-color: rgb(23 23 23);
+    background-color: var(--primary-color);
     color: wheat;
     text-align: center;
     color: blueviolet;
@@ -12,7 +20,7 @@ h1{
 
 #txt-input{
     border: 2px solid rgb(158, 42, 42);
-    background-color: yellowgreen;
+    background-color: var(--textarea-color);
     font-family: cursive;
     font-weight:large;
     text-decoration: wavy;
@@ -21,7 +29,7 @@ h1{
 
 #output{
     border: 2px solid rgb(158, 42, 42);
-    background-color: yellowgreen;
+    background-color: var(--textarea-color);
     font-family: cursive;
     font-weight:large;
     text-decoration: wavy;
@@ -29,8 +37,8 @@ h1{
 
 
 button{
-    background-color: rgb(23 23 23);
-    color: wheat;
+    background-color: var(--primary-color);
+    color: #4c1d95;
     border-radius: 0.5rem;
 }
 
@@ -41,7 +49,7 @@ button{
     margin: 0px;
     padding: 1rem;
     display: block;
-    background-color: rgb(23 23 23);
+    background-color: var(--primary-color);
     color: wheat;
     text-align: center;
     color: blueviolet;
